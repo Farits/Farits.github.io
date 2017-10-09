@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mission</title>
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="libs/font-avesome/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="container">
+				<div class="top-nav">
+					<div class="logo"><a href="#">logo</a></div>
+					<nav>
+						<a href="Index.html">mission</a>
+						<a href="">about</a>
+						<a href="">team</a>
+						<a href="" class="btn">sign in</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--end headeer  -->
+		<!-- intro -->
+		<section class="intro">
+			<div class="container">
+				<div class="our-mission">
+					<div class="our-title">
+						<i class="fa fa-star left" aria-hidden="true"></i><h1>Our Mission</h1><i class="fa fa-star  right" aria-hidden="true"></i>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officiis modi ipsum cum impedit aspernatur non voluptate quia laborum, adipisci?</p>
+				</div>
+			</div>
+		</section>
+		<!--end intro  -->
+		<!-- short -->
+		<section class="short">
+			<div class="container">
+				<h2>about</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga animi architecto excepturi dignissimos nam quis est vitae suscipit explicabo, cupiditate eligendi facilis qui, molestias quia enim voluptates nesciunt doloremque? Accusamus?</p>
+			</div>
+		</section>
+		<!--end short -->
+		<!-- team -->
+		<section class="team">
+			<div class="container">
+				<h2>team</h2>
+				<div class="team-leader">
+					<div class="team-items">
+						<img src="img/john.png" alt="#">
+						<h3 class="team-name">
+							john doe
+						</h3>
+						<p class="scils">
+							founder & CEO
+						</p>
+					</div>
+					<div class="team-items">
+						<img src="img/ellipse.png" alt="#">
+						<h3 class="team-name">
+							li ynh
+						</h3>
+						<p class="scils">
+							Co- Founder
+						</p>
+					</div>
+					<div class="team-items">
+						<img src="img/ellipse 2.png" alt="#">
+						<h3 class="team-name">
+							fil hitt
+						</h3>
+						<p class="scils">
+							investor
+						</p>
+					</div>
+				</div>
+				<div class="block-btn"><a href="#" class="scils-btn">work with us</a></div>
+			</div>
+		</section>
+		<!--end team  -->
+		<!-- map -->
+		<section id="map"></section>	
+		<!--end map  -->
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<div class="footer-container">
+					<div class="footer-contact">
+						<div class="about-us">
+							<a href="#">about</a>
+							<a href="#">faq</a>
+							<a href="#">work with us</a>
+						</div>
+						<div class="footer-social">
+							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook t" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="footer-copy">
+						<span class="company">Privecy Policy</span>
+						<span class="company">Tretmas and Conditions</span>
+						<span class="company">&copy; Company.LLC 2014 </span>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--end wrapper  -->
+	<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+	<script type="text/javascript">
+		var myMap;
+  ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
+  function init () {
+  	myMap = new ymaps.Map("map", {
+      center: [55.76, 37.64], // Координаты центра карты
+      zoom: 10 // Zoom
+    });
+  }
+</script>
+</body>
+</html>
